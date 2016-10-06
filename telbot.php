@@ -8,6 +8,7 @@ $update = json_decode($content, true);
 $chatID = $update["message"]["chat"]["id"];
 		
 // compose reply
+//edit ari
 $reply =  sendMessage();
 		
 // send reply
